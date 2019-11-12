@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lose and Found</title>
+<meta name="viewport" content="width=device-width,	minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript" src="js/lost_yz.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/initialization.css">
+	<link rel="stylesheet" type="text/css" href="css/lost1.css" media="screen and (min-width: 400px)">
+	<link rel="stylesheet" type="text/css" href="css/lost2.css" media="screen and (min-width: 250px) and (max-width:400px)">
+</head>
+<body>
+	<!-- head -->
+	<div id="head">
+		<a href="index.html">
+		<img src="images/newSIClogo.png">
+		</a>
+		<p>发布寻物</p>
+	</div>
+	<!-- head END -->
+
+	<div id="main-form">
+		<!-- form -->
+		<form action="Lost.php" method="post" onsubmit="return validate_form(this)">
+
+		<label for="infotype">信息类型:<br></label>
+		<select class="s1" name="infotype">
+			<option value="">请选择</option>
+			<option value="遗失">遗失</option>
+			<option value="招领">招领</option>
+		</select>
+
+		<label for="name"><br>姓名:<br></label>
+		<input type="text" name="name" id="name" placeholder="必填"><br>
+		
+		<label for="pnumber">手机（暂不支持短号）:<br></label>
+		<input type="text" name="pnumber" id="pnumber" placeholder="选填"><br>
+		
+		<label for="wnumber">微信号:<br></label>
+		<input type="text" name="wnumber" id="wnumber" placeholder="选填"><br>
+
+		<label for="campus">校区:<br></label>
+		<select class="s1" name="campus">
+			<option value="">请选择</option>
+			<option value="西丽湖">西丽湖校区</option>
+			<option value="留仙洞">留仙洞校区</option>
+			<option value="官龙山">官龙山校区</option>
+		</select>
+
+		<label for="title"><br>标题:<br></label>
+		<input type="text" name="title" id="title" placeholder="必填"><br>
+		
+		<label for="ttype">丢失物品:<br></label>
+		<input type="text" name="ttype" id="ttype" placeholder="必填"><br>
+		
+		<label for="place">丢失地点:<br></label>
+		<input type="text" name="place" id="place" placeholder="选填"><br>
+		
+		<label for="time">丢失日期<br></label>
+		<input class="an2" value="" type="date" name="time" placeholder="必填   格式：xxxx/xx/xx 例如：2018/01/01" id="time"><br>
+		
+		<label for="infopro">具体说明:</label><br>
+		<input type="text" name="infopro" id="infopro" placeholder="选填">
+		
+		<br><input class="an" type="submit" name="tijiao" value="提交">	
+		</form>
+		<!-- form END -->
+	</div>
+</body>
+</html>
