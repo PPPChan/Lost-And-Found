@@ -1,0 +1,39 @@
+* {font-family:"微软雅黑"}
+#head {padding: 20px; background: #fff;}
+#head span {font-size: 40px; padding: 0 0 0 25%; }
+
+#main {
+	padding: 2% 0;
+	margin: 5% 10%;
+	background: rgba(139,192,74,0.9);
+}
+
+.inf {
+	font-size: 30px;
+	text-align:center;
+	padding: 2% 0;
+}
+
+#main #back {
+	font-size: 20px;
+	text-align:center;
+	margin: 0 45%;
+	padding: 2% 0;
+	background: rgba(229,86,107,0.9);
+}
+#main #back a {
+    color: #000;
+    text-decoration: none;
+}
+#main #back a:visited {
+	text-decoration: none;	
+	color: #000;				
+}
+#main #back a:link {
+	text-decoration: none;	
+	color: #000;
+}
+#main #back a:hover {
+	text-decoration: none;
+    color: #fff;
+}

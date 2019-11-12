@@ -1,0 +1,52 @@
+* {font-family:"微软雅黑"}
+#head {padding: 20px; background: #fff;}
+#head p {
+	font-size: 40px; 
+	padding: 0 0 0 25%; 
+	display: inline;
+}
+#head img {
+	width: 20%;
+}
+
+
+#main ul {
+	padding: 10% 30% 0 25%;
+}
+#main ul li {
+	list-style: none;
+	padding: 50px;
+	margin: 20px;
+	font-size: 40px;
+}
+#main ul li.fabu{
+	background: rgba(139,192,74,0.9);
+}
+#main ul li.chakan{
+	background: rgba(229,86,107,0.9);
+}
+
+#main .images {
+	 float: right;
+}
+
+#main #biao p {
+	display:inline;
+}
+
+#main #biao ul a {
+    color: #000;
+    text-decoration: none;
+}
+#main #biao a:visited {
+	text-decoration: none;	
+	color: #000;				
+}
+#main #biao a:link {
+	text-decoration: none;	
+	color: #000;
+}
+#main #biao a:hover {
+	text-decoration: none;
+    color: #fff;
+}
